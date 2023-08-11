@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { motion } from "framer-motion"
 
 import { logoSvg } from '@/public/assets';
 
@@ -7,9 +8,9 @@ const Navbar = () => {
   return (
     <div className='w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor px-4'>
       <div className='max-w-container h-full mx-auto py-1 font-titleFont flex items-center justify-between'>
-        <div>
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
           <Image className='w-14'   src={logoSvg} alt='logo' width={52} height={52} />
-        </div>
+        </motion.div>
         <div>
           <ul className='flex text-[15px] gap-7'>
             <Link
