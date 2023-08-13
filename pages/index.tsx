@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import Navbar from '@/components/Navbar'
+import { LeftSide } from '@/components/LeftSide'
 
 export default function Home() {
   return (
@@ -13,6 +14,13 @@ export default function Home() {
       </Head>
       <main className='w-full h-screen font-bodyFont bg-bodyColor text-textLight overflow-x-hidden overflow-y-scroll'>
         <Navbar />
+        <div className='w-full h-[88vh] xl:flex items-center gap-20 justify-between'>
+          <div className='hidden xl:inline-flex w-32 h-full fixes left-0 bottom-0'>
+            <LeftSide />
+          </div>
+          <div></div>
+          <div></div>
+        </div>
       </main>
     </>
   )
