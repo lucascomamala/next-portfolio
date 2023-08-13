@@ -1,7 +1,8 @@
 import Head from 'next/head'
 
 import Navbar from '@/components/Navbar'
-import { LeftSide } from '@/components/LeftSide'
+import LeftSide from '@/components/LeftSide'
+import RightSide from '@/components/RightSide'
 
 export default function Home() {
   return (
@@ -18,8 +19,10 @@ export default function Home() {
           <div className='hidden xl:inline-flex w-32 h-full fixes left-0 bottom-0'>
             <LeftSide />
           </div>
-          <div></div>
-          <div></div>
+          <div>Middle</div>
+          <div className='hidden xl:inline-flex w-32 h-full fixes left-0 bottom-0'>
+            <RightSide />
+          </div>
         </div>
       </main>
     </>
