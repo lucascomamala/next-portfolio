@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { motion } from 'framer-motion'
 
-import { Navbar, LeftSide, RightSide, Banner, About } from '@/components'
+import { Navbar, LeftSide, RightSide, Banner, About, Experience } from '@/components'
 
 export default function Home() {
   return (
@@ -26,6 +26,7 @@ export default function Home() {
           <div className='h-[88vh] w-full mx-auto p-4'>
             <Banner />
             <About />
+            <Experience />
           </div>
           <motion.div 
             initial={{ opacity: 0 }}

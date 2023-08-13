@@ -10,7 +10,7 @@ const About = () => {
       <SectionTitle title="About Me" titleNo="01" />
       <div className='flex flex-col lgl:flex-row gap-16'>
         <div className='w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4'>
-          <p>Hi! I'm Lucas and I enjoy creating things that live on the web. My interest in programming started way back in high school when I discovered I could leverage programming to make my school-work easier. From there, I combined my love of programming and video games to make mods (modifications) for various video games I enjoyed playing. I also spent countless hours looking at the source code of different web pages and trying to recreate them myself. In my free time I enjoy surfing,watching old movies and playing videogames.</p>
+          <p>Hi! I'm Lucas and I enjoy creating things that live on the web. My interest in programming started way back in high school when I discovered I could leverage programming to make my school-work easier. From there, I combined my love of programming and video games to make mods (modifications) for various video games I enjoyed playing. I also spent countless hours looking at the source code of different web pages and trying to recreate them myself. In my free time I enjoy surfing, watching old movies, and playing videogames.</p>
           <p>In the ever-evolving landscape of web development, I'm constantly on the lookout for new and emerging technologies. The fast-paced nature of our field excites me, and I thrive on the challenge of staying updated with the latest trends and tools. Whether it's experimenting with cutting-edge frameworks or exploring novel approaches to user experience, I'm dedicated to pushing the boundaries of what's possible.</p>
           <p>Here are a few technologies I have been working with recently:</p>
           <ul className='max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6'>
@@ -21,6 +21,7 @@ const About = () => {
             <li className='flex items-center gap-2'><span className='text-textGreen'>▹</span> Tailwind CSS</li>
             <li className='flex items-center gap-2'><span className='text-textGreen'>▹</span> PostgreSQL</li>
             <li className='flex items-center gap-2'><span className='text-textGreen'>▹</span> Ruby on Rails</li>
+            <li className='flex items-center gap-2'><span className='text-textGreen'>▹</span> Typescript</li>
           </ul>
         </div>
         <div className='w-full lgl:w-1/3 h-80 relative group'>
