@@ -50,7 +50,7 @@ const Experience = () => {
   }
 
   return (
-    <section id='experience' className='max-w-containerXs mx-auto py-10 lgl:py-32 px-4'>
+    <section id='experience' className='max-w-containerXs mx-auto py-32 px-4'>
       <SectionTitle title='Where I have worked' titleNo='02'/>
       <div className='w-full mt-10 flex flex-col md:flex-row gap-16'>
         <ul className='md:w-32 flex flex-col'>

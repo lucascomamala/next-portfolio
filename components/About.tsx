@@ -6,7 +6,7 @@ import { profileImg } from '@/public/assets'
 
 const About = () => {
   return (
-    <section id='about' className='max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8'>
+    <section id='about' className='max-w-containerSmall mx-auto py-32 flex flex-col gap-8'>
       <SectionTitle title="About Me" titleNo="01" />
       <div className='flex flex-col lgl:flex-row gap-16'>
         <div className='w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4'>
