@@ -10,5 +10,6 @@ import Amazon from "./works/Amazon";
 import Apple from "./works/Apple";
 import Google from "./works/Google";
 import Netflix from "./works/Netflix";
+import Projects from "./Projects";
 
-export { Navbar, LeftSide, RightSide, Banner, About, SectionTitle, Experience, ReactBD, Amazon, Apple, Google, Netflix };
+export { Navbar, LeftSide, RightSide, Banner, About, SectionTitle, Experience, ReactBD, Amazon, Apple, Google, Netflix, Projects };
