@@ -26,7 +26,7 @@ const Banner = () => {
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
         {" "}
-        I am a web developer with a strong programming foundation, specializing in both front-end and back-end development. My expertise spans various technologies, including harnessing the power of <span className="text-textGreen">React</span> to craft dynamic and responsive user interfaces, as well as utilizing the capabilities of <span className="text-textGreen">Ruby on Rails</span> to build robust and scalable web applications. Whether it's turning a concept into a functional website or optimizing user interfaces for seamless interactions, I take pride in pushing the boundaries of what's possible in the digital realm. I am currently working as a freelance web developer and am open to new opportunities.{" "}
+        I am a web developer with a strong programming foundation, specializing in both front-end and back-end development. My expertise spans various technologies, including harnessing the power of <span className="text-textGreen">React</span> to craft dynamic and responsive user interfaces, as well as utilizing the capabilities of <span className="text-textGreen">Ruby on Rails</span> to build robust and scalable web applications. Whether it&#39;s turning a concept into a functional website or optimizing user interfaces for seamless interactions, I take pride in pushing the boundaries of what is possible in the digital realm. I am currently working as a freelance web developer and am open to new opportunities.{" "}
       </motion.p>
       <motion.button
         initial={{ y: 10, opacity: 0 }}
