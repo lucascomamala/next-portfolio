@@ -7,7 +7,12 @@ const Archive = () => {
   const [showMore, setShowMore] = useState(false)
 
   return (
-    <div className='max-w-contentContainer mx-auto px-4 pt-18 pb-32'>
+    <motion.div className='max-w-contentContainer mx-auto px-4 pt-18 pb-32'
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
+      transition={{ delay: 0.5, duration: 2 }}
+    >
       <div className='w-full flex flex-col items-center '>
         <h2 className='text-3xl font-titleFont font-semibold'>Other Noteworthy Projects</h2>
         <p className='text-sm font-titleFont text-textGreen'>view the archive</p>
@@ -180,7 +185,7 @@ const Archive = () => {
           { showMore ? "Show Less" : "Show More" }
         </button>
       </div>
-    </div>
+    </motion.div>
   )
 }
 

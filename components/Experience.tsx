@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { motion } from 'framer-motion'
 
 import { SectionTitle, ReactBD, Amazon, Apple, Google, Netflix } from './'
 
@@ -50,7 +51,14 @@ const Experience = () => {
   }
 
   return (
-    <section id='experience' className='max-w-containerXs mx-auto py-32 px-4'>
+    <motion.section 
+      id='experience' 
+      className='max-w-containerXs mx-auto py-32 px-4'
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
+      transition={{ delay: 0.5, duration: 2 }}
+    >
       <SectionTitle title='Where I have worked' titleNo='02'/>
       <div className='w-full mt-10 flex flex-col md:flex-row gap-16'>
         <ul className='md:w-32 flex flex-col'>
@@ -91,7 +99,7 @@ const Experience = () => {
         { workNetflix && <Netflix /> }
         { workAmazon && <Amazon /> }
       </div>
-    </section>
+    </motion.section>
   )
 }
 

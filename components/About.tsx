@@ -1,4 +1,4 @@
-import React from 'react'
+import { motion } from 'framer-motion'
 import Image from 'next/image'
 
 import { SectionTitle } from './'
@@ -6,7 +6,14 @@ import { profileImg } from '@/public/assets'
 
 const About = () => {
   return (
-    <section id='about' className='max-w-containerSmall mx-auto py-32 flex flex-col gap-8'>
+    <motion.section 
+      id='about' 
+      className='max-w-containerSmall mx-auto py-32 flex flex-col gap-8'
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true, amount: 0.3 }}
+      transition={{ delay: 0.5, duration: 2 }}
+    >
       <SectionTitle title="About Me" titleNo="01" />
       <div className='flex flex-col lgl:flex-row gap-16'>
         <div className='w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4'>
@@ -34,7 +41,7 @@ const About = () => {
           <div className='hidden lgl:inline-flex w-full h-80 border-2 border-textGreen rounded-md group-hover:translate-x-2 group-hover:-translate-y-2 transition-transform duration-300'></div>
         </div>
       </div>
-    </section>
+    </motion.section>
   )
 }
 

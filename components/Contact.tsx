@@ -1,8 +1,13 @@
-import React from 'react'
+import { motion } from "framer-motion"
 
 const Contact = () => {
   return (
-    <section id='contact' className='max-w-contentContainer mx-auto py-10 xl:py-32 flex flex-col gap-4 items-center justify-center'>
+    <motion.section id='contact' className='max-w-contentContainer mx-auto py-10 xl:py-32 flex flex-col gap-4 items-center justify-center'
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
+      transition={{ delay: 0.5, duration: 2 }}
+    >
       <p className='font-titleFont text-lg text-textGreen font-semibold flex items-center tracking-wide'>
         04. Whats's Next?
       </p>
@@ -15,7 +20,7 @@ const Contact = () => {
           Say Hello
         </button>
       </a>
-    </section>
+    </motion.section>
   )
 }
 

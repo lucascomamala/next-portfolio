@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { motion } from 'framer-motion'
 import { TbBrandGithub } from 'react-icons/tb'
 import { RxOpenInNewWindow } from 'react-icons/rx'
 
@@ -7,7 +8,12 @@ import { reactTube, jacked } from '@/public/assets'
 
 const Projects = () => {
   return (
-    <section id="projects" className='max-w-container mx-auto lgl:px-20 py-32'>
+    <motion.section id="projects" className='max-w-container mx-auto lgl:px-20 py-32'
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
+      transition={{ delay: 0.5, duration: 2 }}
+    >
       <SectionTitle title="Some things I've built" titleNo='03' />
       <div className='w-full flex flex-col items-center justify-between gap-28 mt-10'>
         {/* Project one */}
@@ -175,7 +181,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   )
 }
 
