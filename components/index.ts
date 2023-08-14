@@ -11,5 +11,7 @@ import Apple from "./works/Apple";
 import Google from "./works/Google";
 import Netflix from "./works/Netflix";
 import Projects from "./Projects";
+import Archive from "./Archive";
+import ArchiveCard from "./ArchiveCard";
 
-export { Navbar, LeftSide, RightSide, Banner, About, SectionTitle, Experience, ReactBD, Amazon, Apple, Google, Netflix, Projects };
+export { Navbar, LeftSide, RightSide, Banner, About, SectionTitle, Experience, ReactBD, Amazon, Apple, Google, Netflix, Projects, Archive, ArchiveCard };
