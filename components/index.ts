@@ -13,5 +13,6 @@ import Netflix from "./works/Netflix";
 import Projects from "./Projects";
 import Archive from "./Archive";
 import ArchiveCard from "./ArchiveCard";
+import Contact from "./Contact";
 
-export { Navbar, LeftSide, RightSide, Banner, About, SectionTitle, Experience, ReactBD, Amazon, Apple, Google, Netflix, Projects, Archive, ArchiveCard };
+export { Navbar, LeftSide, RightSide, Banner, About, SectionTitle, Experience, ReactBD, Amazon, Apple, Google, Netflix, Projects, Archive, ArchiveCard, Contact };
