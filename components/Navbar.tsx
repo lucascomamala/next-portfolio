@@ -1,10 +1,31 @@
+import { useRef } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from "framer-motion"
 
 import { logoSvg } from '@/public/assets';
 
+
 const Navbar = () => {
+
+  const ref = useRef<string | any>("")
+
+  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    e.preventDefault();
+    const href = e.currentTarget.href;
+    const targetId = href?.replace(/.*\#/, '');
+    console.log(targetId);
+    const target = document.getElementById(targetId!);
+    console.log(target);
+    target?.scrollIntoView({ behavior: "smooth" });
+
+    const links = document.querySelectorAll(".nav-link");
+    links.forEach((link) => {
+      link.classList.remove("active");
+    })
+    e.currentTarget.classList.add("active");
+  }
+
   return (
     <div className='w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor px-4'>
       <div className='max-w-container h-full mx-auto py-1 font-titleFont flex items-center justify-between'>
@@ -16,6 +37,7 @@ const Navbar = () => {
             <Link
               href='#home'
               className=' flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link'
+              onClick={handleScroll}
             >
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
@@ -28,6 +50,7 @@ const Navbar = () => {
             <Link
               href='#about'
               className=' flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link'
+              onClick={handleScroll}
             >
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
@@ -40,6 +63,7 @@ const Navbar = () => {
             <Link
               href='#experience'
               className=' flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link'
+              onClick={handleScroll}
             >
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
@@ -52,6 +76,7 @@ const Navbar = () => {
             <Link
               href='#projects'
               className=' flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link'
+              onClick={handleScroll}
             >
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
@@ -64,6 +89,7 @@ const Navbar = () => {
             <Link
               href='#contact'
               className=' flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link'
+              onClick={handleScroll}
             >
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
