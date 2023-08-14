@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { motion } from 'framer-motion'
 
-import { Navbar, LeftSide, RightSide, Banner, About, Experience, Projects, Archive, Contact } from '@/components'
+import { Navbar, LeftSide, RightSide, Banner, About, Experience, Projects, Archive, Contact, Footer } from '@/components'
 
 export default function Home() {
   return (
@@ -30,6 +30,7 @@ export default function Home() {
             <Projects />
             <Archive />
             <Contact />
+            <Footer />
           </div>
           <motion.div 
             initial={{ opacity: 0 }}

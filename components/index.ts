@@ -14,5 +14,6 @@ import Projects from "./Projects";
 import Archive from "./Archive";
 import ArchiveCard from "./ArchiveCard";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
-export { Navbar, LeftSide, RightSide, Banner, About, SectionTitle, Experience, ReactBD, Amazon, Apple, Google, Netflix, Projects, Archive, ArchiveCard, Contact };
+export { Navbar, LeftSide, RightSide, Banner, About, SectionTitle, Experience, ReactBD, Amazon, Apple, Google, Netflix, Projects, Archive, ArchiveCard, Contact, Footer };
