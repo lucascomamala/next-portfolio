@@ -57,7 +57,7 @@ const Experience = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
-      transition={{ delay: 0.5, duration: 2 }}
+      transition={{ delay: 0.3, duration: 1.5 }}
     >
       <SectionTitle title='Where I have worked' titleNo='02'/>
       <div className='w-full mt-10 flex flex-col md:flex-row gap-16'>
