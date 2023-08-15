@@ -17,7 +17,12 @@ const Projects = () => {
       <SectionTitle title="Some things I've built" titleNo='03' />
       <div className='w-full flex flex-col items-center justify-between gap-28 mt-10'>
         {/* Project one */}
-        <div className='w-full flex flex-col items-center justify-center gap-28 mt-10'>
+        <motion.div className='w-full flex flex-col items-center justify-center gap-28 mt-10'
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.3, duration: 1.5 }}
+          viewport={{ once: true }}
+        >
           <div className='flex flex-col xl:flex-row gap-6'>
             <a 
               href="https://react-you-tube.netlify.app/" 
@@ -69,10 +74,15 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
 
         {/* Project two */}
-        <div className='w-full flex flex-col items-center justify-center gap-28 mt-10'>
+        <motion.div className='w-full flex flex-col items-center justify-center gap-28 mt-10'
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.3, duration: 1.5 }}
+          viewport={{ once: true }}
+        >
           <div className='flex flex-col xl:flex-row-reverse gap-6'>
             <a 
               href="https://jacked-fitness.netlify.app/" 
@@ -124,10 +134,15 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
 
         {/* Project three */}
-        <div className='w-full flex flex-col items-center justify-center gap-28 mt-10'>
+        <motion.div className='w-full flex flex-col items-center justify-center gap-28 mt-10'
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.3, duration: 1.5 }}
+          viewport={{ once: true }}
+        >
           <div className='flex flex-col xl:flex-row gap-6'>
             <a 
               href="https://react-you-tube.netlify.app/" 
@@ -179,7 +194,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </motion.section>
   )

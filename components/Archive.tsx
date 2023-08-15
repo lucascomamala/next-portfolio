@@ -10,7 +10,7 @@ const Archive = () => {
     <motion.div className='max-w-contentContainer mx-auto px-4 pt-18 pb-32'
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
-      viewport={{ once: true }}
+      viewport={{ once: true, amount: 0.2 }}
       transition={{ delay: 0.3, duration: 1.5 }}
     >
       <div className='w-full flex flex-col items-center '>
