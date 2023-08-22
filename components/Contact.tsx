@@ -6,7 +6,7 @@ const Contact = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
-      transition={{ delay: 0.5, duration: 2 }}
+      transition={{ delay: 0.3, duration: 1.5 }}
     >
       <p className='font-titleFont text-lg text-textGreen font-semibold flex items-center tracking-wide'>
         04. Whats&#39;s Next?

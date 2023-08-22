@@ -12,7 +12,7 @@ const About = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true, amount: 0.3 }}
-      transition={{ delay: 0.5, duration: 2 }}
+      transition={{ delay: 0.3, duration: 1.5 }}
     >
       <SectionTitle title="About Me" titleNo="01" />
       <div className='flex flex-col lgl:flex-row gap-16'>

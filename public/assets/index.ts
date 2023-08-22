@@ -3,5 +3,6 @@ import logoSvg from './images/logo.svg';
 import profileImg from './images/profile.png';
 import reactTube from './images/reactTube.png';
 import jacked from './images/jacked.png';
+import y from './images/y.png';
 
-export { logo, logoSvg, profileImg, reactTube, jacked };
+export { logo, logoSvg, profileImg, reactTube, jacked, y };
