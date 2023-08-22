@@ -48,16 +48,18 @@ const Archive = () => {
           github='https://github.com/lucascomamala/Blackjack'
         />
         <ArchiveCard 
-          title='Project Name'
-          des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.'
-          techs={['Reactjs', 'Tailwindcss', 'Nextjs']}
-          link=''
+          title='To-Do List'
+          des='Simple to-do list app built with pure HTML/CSS/JS. Users can add, edit and delete tasks, as well as mark them as completed.'
+          techs={['HTML', 'CSS', 'JS']}
+          link='https://lucascomamala.github.io/To-Do-List/#'
+          github='https://github.com/lucascomamala/To-Do-List'
         />
         <ArchiveCard 
-          title='Project Name'
-          des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.'
-          techs={['Reactjs', 'Tailwindcss', 'Nextjs']}
-          link=''
+          title='Space Travelers&#39; Hub'
+          des='Web application for a company that provides commercial and scientific space travel services. The application allows its users to book rockets and join selected space missions.'
+          techs={['React', 'Redux', 'Bootstrap']}
+          link='https://heartfelt-squirrel-c4bce5.netlify.app/'
+          github='https://github.com/lucascomamala/space-travelers-hub'
         />
 
         { showMore && (
@@ -69,10 +71,11 @@ const Archive = () => {
               transition={{ delay: 0.1 }}
             >
               <ArchiveCard 
-                title='Project Name'
-                des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.'
-                techs={['Reactjs', 'Tailwindcss', 'Nextjs']}
-                link=''
+                title='The Book Emporium'
+                des='Content management system for a bookstore application. Users can add, edit and delete books, built with React and Redux toolkit.'
+                techs={['React', 'Redux', 'Bootstrap']}
+                link='https://bookemporium.netlify.app/'
+                github='https://github.com/lucascomamala/react-bookstore'
               />
             </motion.div>
             <motion.div
@@ -82,10 +85,11 @@ const Archive = () => {
               transition={{ delay: 0.2 }}
             >
               <ArchiveCard 
-                title='Project Name'
-                des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.'
-                techs={['Reactjs', 'Tailwindcss', 'Nextjs']}
-                link=''
+                title='League of Legends Roster'
+                des='Web app that interacts with Riot Games Data Dragon API to display League of Legends champions and their stats. Final project for Microverse bootcamp React-Redux module.'
+                techs={['React', 'Redux']}
+                link='https://league-roster.netlify.app/'
+                github='https://github.com/lucascomamala/react-capstone'
               />
             </motion.div>
             <motion.div
@@ -97,7 +101,7 @@ const Archive = () => {
               <ArchiveCard 
                 title='Project Name'
                 des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.'
-                techs={['Reactjs', 'Tailwindcss', 'Nextjs']}
+                techs={['React', 'Tailwindcss', 'Nextjs']}
                 link=''
               />
             </motion.div>
@@ -110,7 +114,7 @@ const Archive = () => {
               <ArchiveCard 
                 title='Project Name'
                 des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.'
-                techs={['Reactjs', 'Tailwindcss', 'Nextjs']}
+                techs={['React', 'Tailwindcss', 'Nextjs']}
                 link=''
               />
             </motion.div>
@@ -123,7 +127,7 @@ const Archive = () => {
               <ArchiveCard 
                 title='Project Name'
                 des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.'
-                techs={['Reactjs', 'Tailwindcss', 'Nextjs']}
+                techs={['React', 'Tailwindcss', 'Nextjs']}
                 link=''
               />
             </motion.div>
@@ -136,7 +140,7 @@ const Archive = () => {
               <ArchiveCard 
                 title='Project Name'
                 des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.'
-                techs={['Reactjs', 'Tailwindcss', 'Nextjs']}
+                techs={['React', 'Tailwindcss', 'Nextjs']}
                 link=''
               />
             </motion.div>
@@ -149,7 +153,7 @@ const Archive = () => {
               <ArchiveCard 
                 title='Project Name'
                 des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.'
-                techs={['Reactjs', 'Tailwindcss', 'Nextjs']}
+                techs={['React', 'Tailwindcss', 'Nextjs']}
                 link=''
               />
             </motion.div>
@@ -162,7 +166,7 @@ const Archive = () => {
               <ArchiveCard 
                 title='Project Name'
                 des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.'
-                techs={['Reactjs', 'Tailwindcss', 'Nextjs']}
+                techs={['React', 'Tailwindcss', 'Nextjs']}
                 link=''
               />
             </motion.div>
@@ -175,7 +179,7 @@ const Archive = () => {
               <ArchiveCard 
                 title='Project Name'
                 des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.'
-                techs={['Reactjs', 'Tailwindcss', 'Nextjs']}
+                techs={['React', 'Tailwindcss', 'Nextjs']}
                 link=''
               />
             </motion.div>
