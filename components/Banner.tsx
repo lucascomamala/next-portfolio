@@ -28,14 +28,16 @@ const Banner = () => {
         {" "}
         I am a web developer with a strong programming foundation, specializing in both front-end and back-end development. My expertise spans various technologies, including harnessing the power of <span className="text-textGreen">React</span> to craft dynamic and responsive user interfaces, as well as utilizing the capabilities of <span className="text-textGreen">Ruby on Rails</span> to build robust and scalable web applications. Whether it&#39;s turning a concept into a functional website or optimizing user interfaces for seamless interactions, I take pride in pushing the boundaries of what is possible in the digital realm. I am currently working as a freelance web developer and am open to new opportunities.{" "}
       </motion.p>
-      <motion.button
-        initial={{ y: 10, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.9 }}
-        className="h-14 w-64 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
-      >
-        Check out my latest project!
-      </motion.button>
+      <a href="https://y-blond-kappa.vercel.app">
+        <motion.button
+          initial={{ y: 10, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.9 }}
+          className="h-14 w-64 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
+        >
+          Check out my latest project!
+        </motion.button>
+      </a>
     </section>
   )
 }

@@ -15,7 +15,7 @@ const Archive = () => {
     >
       <div className='w-full flex flex-col items-center '>
         <h2 className='text-3xl font-titleFont font-semibold'>Other Noteworthy Projects</h2>
-        {/* TODO: Add archive */}
+        {/* // TODO: Add archive */}
         {/* <p className='text-sm font-titleFont text-textGreen'>view the archive</p> */}
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10'>
@@ -32,13 +32,6 @@ const Archive = () => {
           techs={['Ruby on Rails', 'Bootstrap']}
           link='https://rails-recipes-qfno.onrender.com/'
           github='https://github.com/lucascomamala/rails-recipe-app'
-        />
-        <ArchiveCard 
-          title='Film Festival Site'
-          des='Responsive website for a film festival. Built with pure HTML/CSS/JS.'
-          techs={['HTML', 'CSS', 'JS']}
-          link='https://lucascomamala.github.io/the-portal-capstone/'
-          github='https://github.com/lucascomamala/the-portal-capstone'
         />
         <ArchiveCard 
           title='Blackjack'
@@ -60,6 +53,13 @@ const Archive = () => {
           techs={['React', 'Redux', 'Bootstrap']}
           link='https://heartfelt-squirrel-c4bce5.netlify.app/'
           github='https://github.com/lucascomamala/space-travelers-hub'
+        />
+        <ArchiveCard
+          title='Film Festival Site'
+          des='Responsive website for a film festival. Built with pure HTML/CSS/JS.'
+          techs={['HTML', 'CSS', 'JS']}
+          link='https://lucascomamala.github.io/the-portal-capstone/'
+          github='https://github.com/lucascomamala/the-portal-capstone'
         />
 
         { showMore && (
@@ -92,7 +92,7 @@ const Archive = () => {
                 github='https://github.com/lucascomamala/react-capstone'
               />
             </motion.div>
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
@@ -104,85 +104,7 @@ const Archive = () => {
                 techs={['React', 'Tailwindcss', 'Nextjs']}
                 link=''
               />
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.1 }}
-            >
-              <ArchiveCard 
-                title='Project Name'
-                des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.'
-                techs={['React', 'Tailwindcss', 'Nextjs']}
-                link=''
-              />
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.2 }}
-            >
-              <ArchiveCard 
-                title='Project Name'
-                des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.'
-                techs={['React', 'Tailwindcss', 'Nextjs']}
-                link=''
-              />
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.3 }}
-            >
-              <ArchiveCard 
-                title='Project Name'
-                des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.'
-                techs={['React', 'Tailwindcss', 'Nextjs']}
-                link=''
-              />
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.1 }}
-            >
-              <ArchiveCard 
-                title='Project Name'
-                des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.'
-                techs={['React', 'Tailwindcss', 'Nextjs']}
-                link=''
-              />
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.2 }}
-            >
-              <ArchiveCard 
-                title='Project Name'
-                des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.'
-                techs={['React', 'Tailwindcss', 'Nextjs']}
-                link=''
-              />
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.3 }}
-            >
-              <ArchiveCard 
-                title='Project Name'
-                des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.'
-                techs={['React', 'Tailwindcss', 'Nextjs']}
-                link=''
-              />
-            </motion.div>
+            </motion.div> */}
           </>
         )}
       </div>

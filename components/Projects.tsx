@@ -4,7 +4,7 @@ import { TbBrandGithub } from 'react-icons/tb'
 import { RxOpenInNewWindow } from 'react-icons/rx'
 
 import { SectionTitle } from './'
-import { reactTube, jacked } from '@/public/assets'
+import { reactTube, jacked, y } from '@/public/assets'
 
 const Projects = () => {
   return (
@@ -25,15 +25,15 @@ const Projects = () => {
         >
           <div className='flex flex-col xl:flex-row gap-6'>
             <a 
-              href="https://react-you-tube.netlify.app/" 
+              href="https://y-blond-kappa.vercel.app/" 
               target='_blank' 
               className='w-full xl:w-1/2 h-auto relative group'
             >
               <div>
                 <Image 
                   className='w-full h-full object-contain'
-                  src={reactTube}
-                  alt="ReactTube Image"
+                  src={y}
+                  alt="y Image"
                 />
                 <div className='absolute w-full h-full bg-textGreen/20 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300'></div>
               </div>
@@ -44,28 +44,28 @@ const Projects = () => {
                   Featured Project
                 </p>
                 <h3 className='text-2xl font-bold'>
-                  ReactTube
+                  Y
                 </h3>
               </div>
               <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md'>
-                ReactTube is a youtube clone application built with <span className='text-textGreen'>React</span> utilizing Material UI, Emotion and RapidAPI. Sort by category, search for a specific video, and watch your favorite videos.
+                Y is a social media application that lets you quickly share short thoughts with your friends and the rest of the world. Built with <span className='text-textGreen'>Nextjs</span> and <span className='text-textGreen'>TailWind CSS</span> and utilizing <span className='text-textGreen'>MongoDB</span> and <span className='text-textGreen'>Clerk</span> for a powerful backend, Y is a fullstack application that allows users to create an account, post, and comment on posts as well as create and join different communities.
               </p>
               <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark'>
-                <li>React</li>
-                <li>Emotion</li>
-                <li>RapidAPI</li>
-                <li>MaterialUI</li>
+                <li>Nextjs</li>
+                <li>Clerk</li>
+                <li>TailWind CSS</li>
+                <li>MongoDB</li>
               </ul>
               <div className='text-2xl flex gap-4'>
                 <a 
-                  href="https://github.com/lucascomamala/youtube-clone"
+                  href="https://github.com/lucascomamala/y"
                   target='_blank'
                   className='hover:text-textGreen duration-300'
                 >
                   <TbBrandGithub />
                 </a>
                 <a 
-                  href="https://react-you-tube.netlify.app/"
+                  href="https://y-blond-kappa.vercel.app/"
                   target='_blank'
                   className='hover:text-textGreen duration-300'
                 >
@@ -104,7 +104,7 @@ const Projects = () => {
                   Featured Project
                 </p>
                 <h3 className='text-2xl font-bold'>
-                  ReactTube
+                  Jacked
                 </h3>
               </div>
               <p className='bg-[#112240] text-sm md:text-base p-2 xl:-mr-16 md:p-6 rounded-md'>
@@ -164,7 +164,7 @@ const Projects = () => {
                   Featured Project
                 </p>
                 <h3 className='text-2xl font-bold'>
-                  Third Project
+                  ReactTube
                 </h3>
               </div>
               <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md'>
