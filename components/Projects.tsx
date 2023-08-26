@@ -104,7 +104,7 @@ const Projects = () => {
                   Featured Project
                 </p>
                 <h3 className='text-2xl font-bold'>
-                  Jacked
+                  Admin Dashboard
                 </h3>
               </div>
               <p className='bg-[#112240] text-sm md:text-base p-2 xl:-mr-16 md:p-6 rounded-md'>

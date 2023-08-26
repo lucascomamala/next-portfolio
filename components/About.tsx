@@ -26,7 +26,7 @@ const About = () => {
             <li className='flex items-center gap-2'><span className='text-textGreen'>▹</span> Node.js</li>
             <li className='flex items-center gap-2'><span className='text-textGreen'>▹</span> Next.js</li>
             <li className='flex items-center gap-2'><span className='text-textGreen'>▹</span> Tailwind CSS</li>
-            <li className='flex items-center gap-2'><span className='text-textGreen'>▹</span> PostgreSQL</li>
+            <li className='flex items-center gap-2'><span className='text-textGreen'>▹</span> MongoDB</li>
             <li className='flex items-center gap-2'><span className='text-textGreen'>▹</span> Ruby on Rails</li>
             <li className='flex items-center gap-2'><span className='text-textGreen'>▹</span> Typescript</li>
           </ul>
