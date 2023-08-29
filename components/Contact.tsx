@@ -15,7 +15,7 @@ const Contact = () => {
       <p className='max-w-[600px] text-center text-textDark'>
         My inbox is always open! Whether you have an idea for a project, a question or just want to say hi, I&#39;ll try my best to get back to you!
       </p>
-      <a href="">
+      <a href="mailto:lucascomamala@gmail.com?Subject=Enquiry" target="_blank">
         <button className='w-40 h-14 border border-textGreen mt-6 font-titleFont text-sm text-textGreen tracking-wider rounded-md hover:bg-hoverColor duration-300'>
           Say Hello
         </button>
