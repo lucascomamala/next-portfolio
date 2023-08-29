@@ -35,7 +35,7 @@ const Projects = () => {
                   src={y}
                   alt="y Image"
                 />
-                <div className='absolute w-full h-full bg-textGreen/20 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300'></div>
+                <div className='absolute w-full h-full bg-transparent rounded-lg top-0 left-0 group-hover:bg-textGreen/20 duration-300'></div>
               </div>
             </a>
             <div className='w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10'>
@@ -48,10 +48,11 @@ const Projects = () => {
                 </h3>
               </div>
               <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md'>
-                Y is a social media application that lets you quickly share short thoughts with your friends and the rest of the world. Built with <span className='text-textGreen'>Nextjs</span> and <span className='text-textGreen'>TailWind CSS</span> and utilizing <span className='text-textGreen'>MongoDB</span> and <span className='text-textGreen'>Clerk</span> for a powerful backend, Y is a fullstack application that allows users to create an account, post, and comment on posts as well as create and join different communities.
+                Y is a social media application that lets you quickly share short thoughts with your friends and the rest of the world. Built with <span className='text-textGreen'>Nextjs</span> and <span className='text-textGreen'>TailWind CSS</span>, utilizing <span className='text-textGreen'>MongoDB</span> and <a href='https://clerk.com/' target='_blank'><span className='text-textGreen underline'>Clerk</span></a> for a powerful backend. Y is a full-stack application that allows users to create an account, post, and comment on posts as well as create and join different communities.
               </p>
               <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark'>
                 <li>Nextjs</li>
+                <li>Typescript</li>
                 <li>Clerk</li>
                 <li>TailWind CSS</li>
                 <li>MongoDB</li>
@@ -85,7 +86,7 @@ const Projects = () => {
         >
           <div className='flex flex-col xl:flex-row-reverse gap-6'>
             <a 
-              href="https://admin-frontend-vsly.onrender.com/dashboard" 
+              href="https://admin-frontend-vsly.onrender.com/" 
               target='_blank' 
               className='w-full xl:w-1/2 h-auto relative group'
             >
