@@ -96,7 +96,7 @@ const Projects = () => {
                   src={dashboard}
                   alt="Dashboard Image"
                 />
-                <div className='absolute w-full h-full bg-textGreen/20 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300'></div>
+                <div className='absolute w-full h-full bg-transparent rounded-lg top-0 left-0 group-hover:bg-textGreen/20 duration-300'></div>
               </div>
             </a>
             <div className='w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right z-10'>
@@ -159,7 +159,7 @@ const Projects = () => {
                   src={reactTube}
                   alt="ReactTube Image"
                 />
-                <div className='absolute w-full h-full bg-textGreen/20 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300'></div>
+                <div className='absolute w-full h-full bg-transparent rounded-lg top-0 left-0 group-hover:bg-textGreen/20 duration-300'></div>
               </div>
             </a>
             <div className='w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10'>
@@ -219,7 +219,7 @@ const Projects = () => {
                   src={jacked}
                   alt="Jacked Image"
                 />
-                <div className='absolute w-full h-full bg-textGreen/20 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300'></div>
+                <div className='absolute w-full h-full bg-transparent rounded-lg top-0 left-0 group-hover:bg-textGreen/20 duration-300'></div>
               </div>
             </a>
             <div className='w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right z-10'>
