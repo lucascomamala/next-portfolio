@@ -20,6 +20,13 @@ const Archive = () => {
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10'>
         <ArchiveCard
+          title='Promptopia'
+          des='Promptopia is an open-source AI prompting tool for the modern world to discover, create, and share creative prompts.'
+          techs={['React', 'Nextjs', 'TailwindCSS', 'MongoDB']}
+          link='https://heartfelt-squirrel-c4bce5.netlify.app/'
+          github='https://github.com/lucascomamala/space-travelers-hub'
+        />  
+        <ArchiveCard
           title='Blog on Rails'
           des='Full-stack blog app built with Ruby on rails. Users can create, edit, delete and publish blog posts. Users can also comment and leave likes on blog posts.'
           techs={['Ruby on Rails', 'Bootstrap', 'Devise']}
@@ -46,14 +53,7 @@ const Archive = () => {
           techs={['HTML', 'CSS', 'JS']}
           link='https://lucascomamala.github.io/To-Do-List/#'
           github='https://github.com/lucascomamala/To-Do-List'
-        />
-        <ArchiveCard 
-          title='Space Travelers&#39; Hub'
-          des='Web application for a company that provides commercial and scientific space travel services. The application allows its users to book rockets and join selected space missions.'
-          techs={['React', 'Redux', 'Bootstrap']}
-          link='https://heartfelt-squirrel-c4bce5.netlify.app/'
-          github='https://github.com/lucascomamala/space-travelers-hub'
-        />
+        />      
         <ArchiveCard
           title='Film Festival Site'
           des='Responsive website for a film festival. Built with pure HTML/CSS/JS.'
@@ -70,6 +70,20 @@ const Archive = () => {
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
             >
+              <ArchiveCard
+                title='Space Travelers&#39; Hub'
+                des='Web application for a company that provides commercial and scientific space travel services. The application allows its users to book rockets and join selected space missions.'
+                techs={['React', 'Redux', 'Bootstrap']}
+                link='https://heartfelt-squirrel-c4bce5.netlify.app/'
+                github='https://github.com/lucascomamala/space-travelers-hub'
+              />
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.3 }}
+            >
               <ArchiveCard 
                 title='The Book Emporium'
                 des='Content management system for a bookstore application. Users can add, edit and delete books, built with React and Redux toolkit.'
@@ -82,7 +96,7 @@ const Archive = () => {
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              transition={{ delay: 0.2 }}
+              transition={{ delay: 0.5 }}
             >
               <ArchiveCard 
                 title='League of Legends Roster'
