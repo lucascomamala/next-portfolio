@@ -5,5 +5,6 @@ import reactTube from './images/reactTube.png';
 import jacked from './images/jacked.png';
 import y from './images/y.png';
 import dashboard from './images/dashboard.png';
+import filmpire from './images/filmpire.png';
 
-export { logo, logoSvg, profileImg, reactTube, jacked, y, dashboard };
+export { logo, logoSvg, profileImg, reactTube, jacked, y, dashboard, filmpire };

@@ -17,6 +17,7 @@ const Archive = () => {
         <h2 className='text-3xl font-titleFont font-semibold'>Other Noteworthy Projects</h2>
         {/* // TODO: Add archive */}
         {/* <p className='text-sm font-titleFont text-textGreen'>view the archive</p> */}
+        <p className='text-xs font-titleFont'>(some of these are hosted on free solutions, please give them a sec to spin up...)</p>
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10'>
         <ArchiveCard
