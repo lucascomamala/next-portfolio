@@ -17,21 +17,29 @@ const Archive = () => {
         <h2 className='text-3xl font-titleFont font-semibold'>Other Noteworthy Projects</h2>
         {/* // TODO: Add archive */}
         {/* <p className='text-sm font-titleFont text-textGreen'>view the archive</p> */}
+        <p className='text-xs font-titleFont'>(some of these are hosted on free solutions, please give them a sec to spin up...)</p>
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10'>
+        <ArchiveCard
+          title='Jacked'
+          des='Jacked is a fitness app that allows users to see excercises and their descriptions, as well as create their own custom workouts.'
+          techs={['React', 'MUI']}
+          link='https://jacked-fitness.netlify.app/'
+          github='https://github.com/lucascomamala/jacked'
+        />  
+        <ArchiveCard
+          title='Promptopia'
+          des='Promptopia is an open-source AI prompting tool for the modern world to discover, create, and share creative prompts.'
+          techs={['React', 'Nextjs', 'TailwindCSS', 'MongoDB']}
+          link='https://share-prompts-gules.vercel.app/'
+          github='https://github.com/lucascomamala/share-prompts'
+        />  
         <ArchiveCard
           title='Blog on Rails'
           des='Full-stack blog app built with Ruby on rails. Users can create, edit, delete and publish blog posts. Users can also comment and leave likes on blog posts.'
           techs={['Ruby on Rails', 'Bootstrap', 'Devise']}
           link='https://blog-on-rails.onrender.com/users'
           github='https://github.com/lucascomamala/blog-on-rails'
-        />
-        <ArchiveCard 
-          title='Recipes App'
-          des='Full-stack recipe app built with Ruby on rails. Users can create, edit, delete and publish recipes. Users can also generate a shopping list based on the food items in the recipe against what they currently have.'
-          techs={['Ruby on Rails', 'Bootstrap']}
-          link='https://rails-recipes-qfno.onrender.com/'
-          github='https://github.com/lucascomamala/rails-recipe-app'
         />
         <ArchiveCard 
           title='Blackjack'
@@ -46,14 +54,7 @@ const Archive = () => {
           techs={['HTML', 'CSS', 'JS']}
           link='https://lucascomamala.github.io/To-Do-List/#'
           github='https://github.com/lucascomamala/To-Do-List'
-        />
-        <ArchiveCard 
-          title='Space Travelers&#39; Hub'
-          des='Web application for a company that provides commercial and scientific space travel services. The application allows its users to book rockets and join selected space missions.'
-          techs={['React', 'Redux', 'Bootstrap']}
-          link='https://heartfelt-squirrel-c4bce5.netlify.app/'
-          github='https://github.com/lucascomamala/space-travelers-hub'
-        />
+        />      
         <ArchiveCard
           title='Film Festival Site'
           des='Responsive website for a film festival. Built with pure HTML/CSS/JS.'
@@ -70,6 +71,20 @@ const Archive = () => {
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
             >
+              <ArchiveCard
+                title='Space Travelers&#39; Hub'
+                des='Web application for a company that provides commercial and scientific space travel services. The application allows its users to book rockets and join selected space missions.'
+                techs={['React', 'Redux', 'Bootstrap']}
+                link='https://heartfelt-squirrel-c4bce5.netlify.app/'
+                github='https://github.com/lucascomamala/space-travelers-hub'
+              />
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.3 }}
+            >
               <ArchiveCard 
                 title='The Book Emporium'
                 des='Content management system for a bookstore application. Users can add, edit and delete books, built with React and Redux toolkit.'
@@ -82,7 +97,7 @@ const Archive = () => {
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              transition={{ delay: 0.2 }}
+              transition={{ delay: 0.5 }}
             >
               <ArchiveCard 
                 title='League of Legends Roster'
@@ -90,6 +105,20 @@ const Archive = () => {
                 techs={['React', 'Redux']}
                 link='https://league-roster.netlify.app/'
                 github='https://github.com/lucascomamala/react-capstone'
+              />
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.7 }}
+            >
+              <ArchiveCard
+                title='Recipes App'
+                des='Full-stack recipe app built with Ruby on rails. Users can create, edit, delete and publish recipes. Users can also generate a shopping list based on the food items in the recipe against what they currently have.'
+                techs={['Ruby on Rails', 'Bootstrap']}
+                link='https://rails-recipes-qfno.onrender.com/'
+                github='https://github.com/lucascomamala/rails-recipe-app'
               />
             </motion.div>
             {/* <motion.div
