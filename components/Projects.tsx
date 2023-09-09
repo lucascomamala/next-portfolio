@@ -231,7 +231,7 @@ const Projects = () => {
                   ReactTube
                 </h3>
               </div>
-              <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md'>
+              <p className='bg-[#112240] text-sm md:text-base p-2 xl:-mr-16 md:p-6 rounded-md'>
                 ReactTube is a youtube clone application built with <span className='text-textGreen'>React</span> utilizing Material UI, Emotion and RapidAPI. Sort by category, search for a specific video, and watch your favorite videos.
               </p>
               <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark'>
