@@ -15,7 +15,7 @@ const ArchiveCard = ({ title, des, techs, link, github, download }: Props) => {
   return (
     <div className='w-full h-80 rounded-lg bg-[#112240] p-7 flex flex-col justify-around gap-6 hover:-translate-y-2 transition-transform duration-300 group'>
       <div className='flex justify-between items-center text-4xl'>
-        <a href={github} target='_blank'>
+        <a href={link} target='_blank'>
           <FaRegFolder className='text-textGreen' />
         </a>
         <div className='flex flex-row gap-6 text-[24px]'>
@@ -37,7 +37,7 @@ const ArchiveCard = ({ title, des, techs, link, github, download }: Props) => {
         </div>
       </div>
       <div>
-        <a href={github} target='_blank'>
+        <a href={link} target='_blank'>
           <h2 className='text-xl font-titleFont font-semibold tracking-wide group-hover:text-textGreen'>{title}</h2>
         </a>
         <p className='text-sm mt-3'>{des}</p>

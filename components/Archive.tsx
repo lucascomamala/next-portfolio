@@ -21,11 +21,18 @@ const Archive = () => {
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10'>
         <ArchiveCard
+          title='Jacked'
+          des='Jacked is a fitness app that allows users to see excercises and their descriptions, as well as create their own custom workouts.'
+          techs={['React', 'MUI']}
+          link='https://jacked-fitness.netlify.app/'
+          github='https://github.com/lucascomamala/jacked'
+        />  
+        <ArchiveCard
           title='Promptopia'
           des='Promptopia is an open-source AI prompting tool for the modern world to discover, create, and share creative prompts.'
           techs={['React', 'Nextjs', 'TailwindCSS', 'MongoDB']}
-          link='https://heartfelt-squirrel-c4bce5.netlify.app/'
-          github='https://github.com/lucascomamala/space-travelers-hub'
+          link='https://share-prompts-gules.vercel.app/'
+          github='https://github.com/lucascomamala/share-prompts'
         />  
         <ArchiveCard
           title='Blog on Rails'
@@ -33,13 +40,6 @@ const Archive = () => {
           techs={['Ruby on Rails', 'Bootstrap', 'Devise']}
           link='https://blog-on-rails.onrender.com/users'
           github='https://github.com/lucascomamala/blog-on-rails'
-        />
-        <ArchiveCard 
-          title='Recipes App'
-          des='Full-stack recipe app built with Ruby on rails. Users can create, edit, delete and publish recipes. Users can also generate a shopping list based on the food items in the recipe against what they currently have.'
-          techs={['Ruby on Rails', 'Bootstrap']}
-          link='https://rails-recipes-qfno.onrender.com/'
-          github='https://github.com/lucascomamala/rails-recipe-app'
         />
         <ArchiveCard 
           title='Blackjack'
@@ -105,6 +105,20 @@ const Archive = () => {
                 techs={['React', 'Redux']}
                 link='https://league-roster.netlify.app/'
                 github='https://github.com/lucascomamala/react-capstone'
+              />
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.7 }}
+            >
+              <ArchiveCard
+                title='Recipes App'
+                des='Full-stack recipe app built with Ruby on rails. Users can create, edit, delete and publish recipes. Users can also generate a shopping list based on the food items in the recipe against what they currently have.'
+                techs={['Ruby on Rails', 'Bootstrap']}
+                link='https://rails-recipes-qfno.onrender.com/'
+                github='https://github.com/lucascomamala/rails-recipe-app'
               />
             </motion.div>
             {/* <motion.div
